@@ -1,0 +1,1987 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.top{
+    background-color: #423414;
+    width: 100vw;
+}
+.top p{
+    color:#f5d709;
+    text-align: center;
+}
+.hero{
+    width: 100vw;
+    height: 98vh;
+    background-image:url(./images/landing\ image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav ul li{
+    margin-top: 20px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.home{
+    text-decoration: underline white;
+}
+
+.dave{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 80px 50px 50px 50px;
+    font-size: 100px;
+    font-style: oblique;
+    
+}
+.togo{
+    font-weight: 100;
+    color:white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  font-family: sans-serif;
+}
+.herbs{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    height: 80%;
+    overflow-y: hidden;
+}
+.herbs h1{
+    font-size: 100px;
+    line-height: .9;
+    margin-left:50px;
+    color: white;
+    overflow: hidden;
+    width: 85%;
+    
+}
+.name{
+    justify-content: flex-end;
+    position: relative;
+     left: 25%;
+}
+.name p{
+    color: white;
+    width: 40%;
+    font-weight: bold;
+    font-size:18PX;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name a{
+    border: 1px solid white;
+    display: inline-block;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+     font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 38px;
+    letter-spacing: .01em;
+    text-decoration: none;
+}
+.name a:hover{
+    color:#423414;
+    background-color: white;
+    cursor:pointer;
+}
+.pat{
+    background-color: #f36c3b;
+    height:50px;
+    background-image: url(./images/svg-pattern-3-brown.svg);
+    background-repeat: repeat-x;
+}
+.flower{
+    height: 100vh; 
+    display:block;
+    background-color: #FFF7F2;
+    overflow: hidden;
+    /* position:relative; */
+}
+.dan{
+    position: absolute;
+    height: 80%;
+}
+.gar{
+    position: absolute;
+     right: 1%;
+     bottom: -100%;
+     max-width: 360px;
+     height: 70%;
+}
+.everyday{
+    color: #423414;
+    display: block;
+    font-weight: bolder;
+    font-size: 90px;
+    font-family:'etna-condensed', serif;
+}
+.save{
+    height: 100%;
+    position: relative;
+     left: 20%;
+     top: 10%;
+}
+.herbalism{
+    color: #423414;
+    font-weight: bolder;
+    font-size: 90px;
+    position: relative;
+     left: 21%;
+     font-family:'etna-condensed', serif;
+}
+.save p{
+    color:darkslategrey ;
+    width: 32%;
+    text-align: center;
+    display: block;
+    position: relative;
+     left: 10%;
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 5%;
+    font-family:'Rauschen B', sans-serif;
+}
+.save button{
+    position: relative;
+     left: 18%;
+    border: 1px solid black;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+}
+.save button:hover{
+    background-color:#423414 ;
+    cursor:pointer;
+    color: white;
+}
+.takeaquiz{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+.shop{
+    height: 97%;
+    width: 31%;
+    background-image: url(./images/iced-herbal-coffee_800x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+    transition-timing-function:ease;
+    transition-duration: 4s;
+    transition-property: all;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.shop:hover{
+    height: 98%;
+    width: 31%;
+    cursor: pointer;
+}
+.shop a{
+    background-color: #f5d709;
+    border: none;
+    /* overflow: hidden; */
+    align-items:flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:#423414;
+}
+.shop a p{
+    text-align:start;
+    font-size: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.shop a h1{
+    text-align: start;
+    font-size: 240%;
+    font-weight:300 ;
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+.shop a:hover{
+    background-color: white;
+}
+.quiz{
+    height: 97%;
+    width: 31%;
+    background-image: url(./images/wsh-home-featured-cta-quiz_2x_d856862b-ca11-4453-96eb-3753e29b7273_800x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+    transition-timing-function:ease;
+    transition-duration: 4s;
+    transition-property: all;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.quiz:hover{
+    height: 98%;
+    width: 31%;
+    cursor: pointer;
+}
+.quiz a{
+    background-color: #D966C6;
+    border: none;
+    align-items:flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:#423414;
+}
+.quiz a p{
+    text-align:start;
+    font-size: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.quiz a h1{
+    text-align: start;
+    font-size: 240%;
+    font-weight:300 ;
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+.quiz a:hover{
+    background-color: white;
+}
+.herbal{
+    height: 97%;
+    width: 31%;
+    background-image: url(./images/wsh-home-featured-cta-herbalism-101_2x_0a30f0b4-45bc-4bd4-8ff2-cd86f4e96855_800x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+    transition-timing-function:ease;
+    transition-duration: 4s;
+    transition-property: all;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.herbal:hover{
+    height: 98%;
+    width: 31%;
+    cursor: pointer;
+}
+.herbal a{
+    background-color:#F36C3B ;
+    border: none;
+    align-items:flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:#423414;
+}
+.herbal a p{
+    text-align:start;
+    font-size: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.herbal a h1{
+    text-align: start;
+    font-size: 240%;
+    font-weight:300 ;
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+.herbal a:hover{
+    background-color: white;
+}
+.earth{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 60px 0px;
+    width: 100%;
+}
+.born{
+    font-size: 40px;
+    width: 400px;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    color: #423414;
+}
+.born span{
+    font-weight:bolder;
+}
+.organic{
+    width: 10%;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+    /* font-size: 12px; */
+    font-family: 'Rauschen B', sans-serif;;
+}
+.organic img{
+    width: 65%;
+    height: 100%;
+}
+.gmo{
+    width: 100px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+    font-family: 'Rauschen B', sans-serif;;
+}
+.gmo img{
+    width: 65%;
+}
+.vegan{
+    width: 100px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+}
+.vegan img{
+    width: 65%;
+}
+.gluten{
+    width: 100px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+}
+.gluten img{
+    width: 65%;
+}
+.planet{
+    width: 100px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+}
+.planet img{
+    width: 65%;
+}
+.woman{
+    width: 100px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    color: #423414;
+}
+.woman img{
+    width: 65%;
+}
+.sun{
+    font-size: 40px;
+    width: 400px;
+    /* font-weight:lighter ; */
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: #423414;
+}
+.sun span{
+    font-weight:bolder;
+}
+.sunny{
+    background-color: #064A3F;
+}
+.season{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 40px;
+}
+.season h2{
+    color: white;
+    text-align: center;
+    font-size: 350%;
+    margin: 0 0 0 30px;
+    width: 100%;
+}
+.season img{
+    width: 20%;
+    margin-top: 10px;
+    position: relative;
+    top: 50%;
+}
+.balance{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.stress{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    height: 100%;
+}
+.stress ul{
+    /* display: flex; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.stress ul li{
+    margin: 30px 0px 0px 70px;
+    height: 100%;
+    list-style: none;
+}
+.stress .under{
+    text-decoration:wavy 1px white ;
+     text-decoration-line: underline;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stress ul li .under:hover{
+    cursor:default;
+    color:white;
+}
+.stress a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.stress a:hover{
+    cursor: pointer;
+    color: gray;
+}
+.stress li{
+    list-style:none ;
+}
+.stress button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 0 20px;
+    height: 50px;
+    align-items: center;
+    display: inline-block;
+    font-weight: bold;  
+}
+.stress button:hover{
+    background-color: white;
+    color: #423414;
+    cursor: pointer;
+}
+.combo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.first{
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-position: 50%;
+    background-image: url(./images/wsh-adaptogen-balance-pdp-hero_2x_4b14b07b-13f0-4b36-9423-53b6134d8e90_400x.webp);
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 320px;
+    margin-top: 20px;
+}
+.cart p span{
+    color: #423414;
+    font-size: 25px;
+    letter-spacing: normal;
+}
+.cart p{
+    color:#423414 ;
+    font-size: 16px;
+}
+.first:hover{
+    cursor: pointer;
+    background-image: url(./images/wsh-adaptogen-balance-plp-thumbnail-hover@2x.jpg);
+}
+.first a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 80%;
+    color: #423414;
+    background-color: #FFF7F2;
+    font-size: 20px;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+}
+.first a:hover{
+    color:#FFF7F2;
+    background-color: #423414;
+    font-weight: bold;
+}
+.second{
+    height: 450px;
+    width: 300px;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(./images/wsh-adaptogen-balance-pdp-hero_2x_4b14b07b-13f0-4b36-9423-53b6134d8e90_400x.webp);
+}
+.ally{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.ally p span{
+    color: #423414;
+    font-size: 25px;
+    letter-spacing: normal;
+}
+.ally p{
+    color:#423414 ;
+    font-size: 16px;
+    overflow: hidden;
+}
+.second label{
+    background-color: #f5d709;
+    transform: rotate(270deg);
+    height: 50px;
+    color: #423414;
+    width: 150px;
+    text-align: center;
+    position: relative;
+     right: 55px;
+     top: 30px;
+    padding: 10px;
+    font-size: 14px;
+    justify-self: end;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}
+.second a{
+    text-decoration: none;
+    margin-top: 180px;
+    margin-bottom: 23px;
+    width: 80%;
+    color: #423414;
+    background-color: #FFF7F2;
+    font-size: 20px;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    overflow: hidden;
+}
+.second a:hover{
+    color:#FFF7F2;
+    background-color: #423414;
+    font-weight: bold;
+}
+.second:hover{
+    cursor: pointer;
+    background-image: url(./images/wsh-anxiety-ally-plp-hover@2x.jpg);
+}
+.third{
+    height: 450px;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-position: 50%;
+    background-image: url(./images/wsh-adaptogen-balance-pdp-hero_2x_4b14b07b-13f0-4b36-9423-53b6134d8e90_400x.webp);
+    background-size: cover;
+}
+.helper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 320px;
+    margin-top: 20px;
+}
+.helper p span{
+    color: #423414;
+    font-size: 25px;
+    letter-spacing: normal;
+}
+.helper p{
+    color:#423414 ;
+    font-size: 16px;
+}
+.third a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 80%;
+    color: #423414;
+    background-color: #FFF7F2;
+    font-size: 20px;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+}
+.third a:hover{
+    color:#FFF7F2;
+    background-color: #423414;
+    font-weight: bold;
+}
+.third:hover{
+    cursor: pointer;
+    background-image: url(./images/wsh-head-helper-plp-thumbnail-hover@2x.jpg);
+}
+.grown{
+    background-color: #F0EE89;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+    /* margin: 0 18px; */
+}
+.sam{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.leaf{
+    margin: 0 0 120px 0;
+}
+.sam .remote{
+    width: 12%;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.sam .job{
+    width: 18%;
+    margin-right: 30px;
+    position: relative;
+     bottom: 56px;
+}
+.leaf h2{
+    font-size: 130px;
+    color: #423414;
+    margin-left: 20px;
+    font-weight: lighter;
+    letter-spacing: -0.02px;
+    word-spacing: -10px;
+}
+.sam h2{
+    justify-self:left;
+    font-size: 130px;
+    color: #423414;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+    position: relative;
+     left: 6%;
+    line-height:0.8;
+    letter-spacing: -0.06em;
+    overflow: hidden;
+}
+.wooden{
+    display: flex;
+    justify-content: space-around;
+}
+.wood{
+    justify-items: center;
+    height: 200px;
+}
+.lion{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 60px;
+    width: 50%;
+}
+.wood p{
+    color: #423414;
+    width: 380px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wood a{
+    text-decoration: none;
+    color: #423414;
+    border: 1px solid #423414;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight:lighter;
+    display: inline-block;
+}
+.wood a:hover{
+    background-color: #423414;
+    color: #FFF7F2;
+    cursor: pointer;
+}
+.tiger{
+    width: 50%;
+}
+.tiger img{
+    height: auto;
+    width: 95%;
+    display: block;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.lion img{
+    width: 95%;
+    justify-items: end;
+}
+.new{
+    background-color: #F0EE89;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 120px 0;
+}
+.see h2{
+    color: #423414;
+    font-size: 18px;
+    height: 25px;
+}
+.bon img{
+    width: 180px;
+    height: 100%;
+}
+.nyt img{
+    width: 180px;
+    height: 100%;
+}
+.hype img{
+    width: 180px;
+    height: 100%;
+}
+.community{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: #423414;
+    padding: 120px 0;
+}
+.our h2{
+    color:#FFF7F2;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.emily{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    box-sizing: border-box;
+    column-gap:10px;
+    margin:0 20px ;
+    
+}
+.molly{
+    background-color: #FFF7F2;
+    /* margin-left: 20px; */
+    width: 80%;
+    height: 500px;
+    overflow-y: hidden;
+}
+.molly img{
+    width: 100%;
+    height: 50%;
+}
+.molly p{
+    padding: 20px;
+    font-size: 18px;
+}
+.gabi{
+    background: #FFF7F2;
+    width: 80%;
+    height: 500px;
+    overflow-y: hidden;
+}
+.gabi img{
+    width: 100%;
+    height: 50% ;
+}
+.gabi p{
+    font-size: 18px;
+    padding: 15px;
+}
+.jon{
+    background-color: #FFF7F2;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+}
+.jon img{
+    width: 100%;
+    height: 50%;
+}
+.jon p{
+    font-size: 18px;
+    padding: 20px;
+}
+.news{
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-around;
+}
+.news h2{
+    color: white;
+    font-size: 90px;
+    margin-bottom: 20px;
+    letter-spacing: .02em;
+}
+.news p{
+    color: white;
+    font-size: 20px;
+    width: 330px;
+    margin-bottom: 20px;
+}
+.news input{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 70%;
+    height: 50px;
+    padding: 8px 50px 12px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.news ::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.onion{
+    padding: 60px 0;
+    position: relative;
+}
+.glass{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    align-items: center;
+}
+.glass h1{
+    color: #423414;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+.glass h1 span{
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke-width: 1px;
+}
+.glass a{
+    text-decoration: none;
+    border: 1px solid #423414;
+    padding:0 20px;
+    height: 40px;
+    color: #423414;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+}
+.glass a:hover{
+    background-color: #423414;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tomato{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 18px;
+    /* margin: 0 20px; */
+    height: fit-content;
+    box-sizing: border-box;
+    position: relative;
+    /* width: 1000px; */
+}
+.pep a{
+    text-decoration: none;
+}
+.pep{
+    width: 55%;
+    height:400px;
+}
+.pep h3{
+    text-decoration: none;
+    color: #423414;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.pep p{
+    color: #423414;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.pep img{
+    width:100%;
+    height: 70%;
+    object-fit: cover;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.pep:hover{
+    cursor: pointer;
+}
+.pep img:hover{
+    width: 105%;
+}
+.klop a{
+    text-decoration: none;
+}
+.klop{
+    width: 25%;
+    height: 400px;
+    overflow-y: hidden;
+}
+.klop h3{
+    text-decoration: none;
+    color: #423414;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.klop p{
+    color: #423414;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.klop img{
+    width:100%;
+    height: 70%;
+    object-fit: cover;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.klop:hover{
+    cursor: pointer;
+}
+.klop img:hover{
+    width: 105%;
+}
+.goat a{
+    text-decoration: none;
+}
+.goat{
+    width: 25%;
+    height: 400px;
+    overflow-y: hidden;
+}
+.goat h3{
+    text-decoration: none;
+    color: #423414;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.goat p{
+    color: #423414;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0 ;
+}
+.goat img{
+    width:100%;
+    height: 70%;
+    object-fit: cover;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.goat:hover{
+    cursor: pointer;
+}
+.goat img:hover{
+    width: 105%;
+}
+.pin{
+    background-color: #f36c3b;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pin p{
+    font-size: 20px;
+    color: #423414;
+    font-weight: bold;
+}
+.pin a{
+    font-size: 20px;
+    color: #423414;
+    text-decoration: none;
+    font-weight: bold;
+}
+.blue{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows:370px 370px;
+    /* gap: 10px; */
+}
+.red{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: hidden;
+}
+.red img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.green{
+    grid-row-start: 1;
+    overflow: hidden;
+}
+.green img{
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    object-fit: cover;
+    overflow: hidden;
+}
+.yellow img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.black{
+    overflow: hidden;
+}
+.black img{
+    height: 100%;
+    width: 100%;
+}
+.ben{
+    overflow: hidden;
+}
+.ben img{
+    width: 100%;
+    height: 100%;
+}
+.tub{
+    overflow: hidden;
+}
+.tub img{
+    height: 100%;
+    width: 100%;
+}
+.last{
+    background-color: #423414;
+}
+.find{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 80px 0;
+    gap: 10px;
+}
+.seek{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    position: relative;
+    left: 5%;
+}
+.find h1{
+    color: #FFF7F2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.seek ul li a{
+    color: #FFF7F2;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.seek ul li{
+    margin-bottom: 15px;
+}
+.seek ul li a:hover{
+    text-decoration:solid underline white;
+    cursor: pointer;
+}
+.rich{
+    width: 25%;
+}
+.rich h2{
+    font-size: 18px;
+    color: #FFF7F2;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.rich input{
+    border: 1px white solid;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+.rich input::placeholder{
+    color: #FFF7F2;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.big p{
+    color: gray;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    font-size: 14px;
+}
+.holy{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.holy p{
+    color: gainsboro;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.holy ul{
+    display: flex;
+    justify-content: space-around;
+}
+.holy ul li a{
+    text-decoration: none;
+    color: gainsboro;
+    text-transform: uppercase;
+}
+.holy ul li{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.holy ul li a:hover{
+    cursor: pointer;
+    color: gray;
+}
+.footherb{
+    width:10%
+}
+.footherb span{
+    position: absolute;
+    transform-origin: 10px 70px;
+    font-size: 20px;
+    left: 60px;
+    color: white;
+}
+
+@media screen and (max-width:1322px){
+    .dave{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:1155px){
+    .earth{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 1fr 100px ;
+        place-content: center;
+        margin: 60px 18px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .born{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        place-self: center;
+        justify-self: center;
+    }
+    .sun{
+        place-self: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        /* justify-content: center; */
+    }
+    .organic{
+        text-align: center;
+        width:100px;
+        justify-self: center;
+    }
+    .gmo{
+        justify-self: center;
+    }
+    .vegan{
+        justify-self: center;
+    }
+    .gluten{
+        justify-self: center;
+    }
+    .planet{
+        justify-self: center;
+    }
+    .woman{
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width:1196px){
+    .gar{
+        height: 60%;
+    }
+    .dan{
+        height: 60%;
+    }
+
+}
+@media screen and (max-width:1187px){
+    .combo{
+        overflow-x: scroll;
+        margin: 0 18px;
+    }
+
+}
+@media screen and (max-width:1077px) {
+    .dave span{
+        position: absolute;
+         left: 50%;
+        transform-origin: 10px 100px;
+        font-size: 30px;
+    }
+    .herbs{
+        position: relative;
+        top: 70px;
+    }   
+    .leaf h2{
+        font-size: 90px;
+    }
+    .sam .job{
+        bottom: 45px;
+    }
+    .sam h2{
+        font-size: 90px;
+        left: 3%;
+    }
+    .wooden{
+        flex-direction: column-reverse;
+    }
+    .lion{
+        width: 100%;
+    }
+    .lion img{
+        display: none;
+    }
+    .wood{
+        width: 100%;
+    }
+    .tiger img{
+        position: relative;
+        left: 25%;
+    }
+    .tiger{
+        width: 75%;
+    }
+    .wood p{
+        position: relative;
+        left: 30%;
+    }
+    .wood a{
+        position: relative;
+        left: 40%;
+    }
+}
+@media screen and (max-width:1020px){
+    .find{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 30px;
+    }
+    .seek{
+        width: 100%;
+    }
+    .rich{
+        position: relative;
+        left: 54%;
+        /* top: 10%; */
+        width: 45%;
+    }
+    .footherb span{
+        position: absolute;
+        top: 60%;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .seek ul li a{
+        font-size: 14px;
+    }
+    .find h1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:970px){
+    .everyday{
+        font-size: 50px;
+    }
+    .herbalism{
+        font-size: 50px;
+    }
+    .wood{
+        height: 150px;
+    }
+    .wood p{
+        position: relative;
+        left: 30%;
+        margin-right: 30px;
+        font-size: 14px;
+        text-align:start;
+    }
+    .wood a{
+        position: relative;
+        left: 40%;
+        font-size: 16px;
+    }
+    .blue{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .yellow{
+        display: none;
+    }
+    .black{
+        display: none;
+    }
+    .tub{
+        display: none;
+    }
+}
+@media screen and (max-width:921px){
+    .herbs h1{
+        font-size: 60px;
+    }
+    .tomato{
+        width: 100vw;
+    }
+    
+}
+@media screen and (max-width:870px){
+    .news{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+    }
+    .news img{
+        width: 60%;
+    }
+    .news p{
+        justify-self: center;
+    }
+    .emily{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gabi{
+        width: 100%;
+    }
+    
+    .molly{
+        width: 100%;
+    }
+    .jon{
+        display: none;
+    }
+}
+@media screen and (max-width:787px){
+    .pep p{
+        font-size: 16px;
+    }
+    .pep h3{
+        font-size: 16px;
+    }
+    .klop p{
+        font-size: 16px;
+    }
+    .klop h3{
+        font-size: 16px;
+    }
+    .goat p{
+        font-size: 16px;
+    }
+    .goat h3{
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:771px) {
+    .herbs{
+        display: block;
+    }
+    .hero{
+        overflow-y: hidden;
+    }
+    .herbs h1{
+        font-size: 45px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .name{
+        left: 3%;
+        overflow-y: hidden;
+    }
+    .name p{
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .save p{
+        position: relative;
+        left: 7%;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .save button{
+        position: relative;
+        left: 12%;
+    }
+    .takeaquiz{
+        height: 70vh;
+    }
+    .shop a h1{
+        font-size: 150%;
+        font-weight: bolder;
+    }
+    .quiz a h1{
+        font-size: 170%;
+        font-weight: bolder;
+    }
+    .herbal a h1{
+        font-size: 170%;
+        font-weight: bolder;
+    }
+    
+    .flower{
+        height: 90vh;
+    }
+    .tomato{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr ; */
+    }
+    .pep{
+        width: 100%;
+    }
+    .klop{
+        width: 100%;
+    }
+    .goat{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        display:block;
+        place-self: center;
+        width: 100%;
+    }
+    .goat h3{
+        text-align: center;
+    }
+    .goat p{
+        text-align: center;
+    }
+    .pin p{
+        display: none;
+    }
+    .pin{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:970px) {
+    .balance{
+        display: flex;
+        flex-direction: column;
+    }
+    .stress ul{
+        display: flex;
+    }
+    .stress ul li{
+        font-size: 14px;
+    }
+    .stress ul li{
+        margin: 20px 0 0 10px
+    }
+    .stress button{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:650px){
+    .nav ul{
+        /* display: none; */
+    }
+    .everyday{
+        font-size: 30px;
+    }
+    .herbalism{
+        font-size: 30px;
+    }
+    .gar{
+        height: 30%;
+    }
+    .dan{
+        height: 30%;
+    }
+    .season h2{
+        font-size: 180%;
+        display: block;
+        width: 100%;
+    }
+    .season{
+        flex: unset;
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-bottom: 60px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .depp{
+        text-align: left;
+        flex: unset;
+        display: block;
+    }
+    .shelby{
+        text-align: left;
+        flex: unset;
+        display: block;
+    }
+    .season img{
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        margin: 0;
+        right: 0;
+        top: 1%;
+    }
+    .new{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .grown{
+        padding: 70px 0;
+    }
+    .news ::placeholder{
+        font-size: 13px;
+    }
+    .news p{
+        font-size: 15px;
+    }
+    .news h2{
+        font-size: 40px;
+    }
+.sam .job{
+    width: 15%;
+    bottom: 5px;
+}
+.leaf h2{
+    font-size: 50px;
+}
+.glass{
+    display: block;
+}
+.glass a{
+    position: absolute;
+    bottom: 20px;
+    margin: 30px 0 10px 0;
+}
+.glass h1{
+    font-size: 40px;
+}
+.onion{
+    position: relative;
+}
+.holy{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.holy ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+}
+.holy p{
+    text-align: center;
+}
+.big p{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:560px){
+    .takeaquiz{
+        column-gap: 10px;
+        overflow: scroll;
+    }
+    .shop{
+        width: 35%;
+        height: 75%;
+    }
+    .shop a h1{
+        font-size: 16px;
+    }
+    .quiz{
+        width:35%;
+        height: 75%;
+    }
+    .quiz a h1{
+        font-size: 16px;
+    }
+    .herbal{
+        width: 35%;
+        height: 75%;
+    }
+    .herbal a h1{
+        font-size: 16px;
+    }
+    .wood p{
+        position: relative;
+        left: 20%;
+        margin-right: 30px;
+        font-size: 16px;
+        text-align:center;
+    }
+    .wood a{
+        position: relative;
+        left: 35%;
+        font-size: 16px;
+    }
+    .news input{
+        width: 80%;
+    }
+    .news ::placeholder{
+        font-size: 13px;
+        width: 100%;
+    }
+    .find{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rich{
+        width: 80%;
+        left: 5%;
+    }
+    .seek{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footherb span{
+        position: absolute;
+        top: 80%;
+        font-size: 18px;
+        margin-left: 10px;
+        transform-origin: 10px 60px;
+    }
+}
+@media screen and (max-width:517px){
+    .stress{
+        font-size: 13px;
+        width: 100%;
+    }
+    .stress ul{
+        width: 100%;
+        position: relative;
+         right: 27px;
+    }
+    .stress ul li{
+        font-size: 12px;
+    }
+    .stress .under{
+        font-size: 12px;
+    }
+    .stress button{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .wood a{
+        position: relative;
+        left: 30%;
+        font-size: 16px;
+    }
+    .wood p{
+        position: relative;
+        left: 15%;
+        margin-right: 30px;
+        font-size: 14px;
+        text-align:center;
+        width: 250px;
+    }
+    .news p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:440px){
+    .save button{
+        font-size: 14px;
+        height: 38px;
+    }
+    .gabi p{
+        font-size: 13px;
+    }
+    .molly p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:424px){
+    .top p{
+        font-size: 12px;
+    }
+    .name a{
+        font-size: 16px;
+        height: 40px;
+    }
+    .name p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .dave span{
+        position: absolute;
+         left: 50%;
+        transform-origin: 5px 70px;
+        font-size: 25px;
+    }
+    .hero{
+        height: 85vh;
+    }
+    .gar{
+    bottom: -70%;
+    }
+    .earth{
+        gap: 10px;
+        align-items: center;
+        margin: 60px 5px;
+    }
+    .organic{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 88px;
+        height: 99px;
+    }
+    .organic img{
+        width: 50%;
+        height: 50%;
+    }
+    .gmo img{
+        width: 50%;
+    }
+    .gmo{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 88px;
+        height: 99px;
+    }
+    .vegan img{
+        width: 50%;
+    }
+    .vegan{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 25px;
+        width: 88px;
+        height: 99px;
+    }
+    .gluten img{
+        width: 50%;
+    }
+    .gluten{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 88px;
+        height: 99px;
+    }
+    .planet img{
+        width: 50%;
+    }
+    .planet{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 88px;
+        height: 99px;
+    }
+    .woman{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 88px;
+        height: 99px;
+    }
+    .woman img{
+        width: 50%;
+    }
+    .sun{
+        font-size: 25px;
+        position: relative;
+        left: 20%;
+    }
+    .born{
+        font-size: 25px;
+        position: relative;
+        left: 20%;
+    }
+    
+    .stress ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        overflow: hidden;
+    }
+     .stress ul li{
+        font-size: 14px;
+    }
+    .stress .under{
+        font-size: 14px;
+    }
+    .stress button{
+        padding: 10px;
+        font-size: 14px;
+        /* height: 39px; */
+    }
+    .leaf h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:359px){
+  .save p{
+    font-size: 14px;
+    width: 50%;
+  }
+  .gar{
+    bottom: -50%;
+  }
+}
+@media screen and (max-width:327px){
+    .save p{
+        margin-bottom: 2%;
+        width: 45%;
+    }
+    .save button{
+        margin-bottom: 5%;
+    }
+    .hero{
+        height: 92vh;
+    }
+}
+@media screen and (max-width:377px){
+    .dave span{
+        position: absolute;
+         left: 50%;
+        transform-origin: 5px 70px;
+        font-size: 20px;
+    }
+    .herbs{
+        position: relative;
+        top: 45px;
+    }
+    .herbal a{
+        width: 90%;
+    }   
+    .herbal a p{
+        font-size: 14px;
+    }
+    .herbal a h1{
+        font-size: 15px;
+    }
+
+    .quiz a{
+        width: 90%;
+    }   
+    .quiz a p{
+        font-size: 14px;
+    }
+    .quiz a h1{
+        font-size: 15px;
+    }
+
+    .shop a{
+        width: 90%;
+    }   
+    .shop a p{
+        font-size: 14px;
+    }
+    .shop a h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:334px){
+    .dave span{
+        position: absolute;
+         left: 50%;
+        transform-origin: 5px 70px;
+        font-size: 20px;
+    }
+    .herbs{
+        position: relative;
+        top: 30px;
+    }   
+     .name a{
+        font-size: 14px;
+        height: 40px;
+    }
+    .name p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    /* .nav ul{ */
+        /* display: none; */
+    /* } */
+}
+@media screen and (min-height:588px) and (max-height:2000px){
+    .hero{
+        height: 85vh;
+    }
+    .name p{
+        font-size: 20px;
+    }
+}
